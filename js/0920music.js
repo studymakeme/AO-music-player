@@ -171,7 +171,7 @@ $(function() {
 	} else {
 		$.ajax({
 			type: "get",
-			url: "http://www.arthurdon.top:3000/top/list?idx=1",
+			url: "https://www.arthurdon.top:10099/top/list?idx=1",
 			success: function(data) {
 				console.log(data);
 
