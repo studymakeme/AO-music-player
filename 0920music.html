@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <link rel="stylesheet" type="text/css" href="css/0920music.css"/>
+		<title>music</title>
+	</head>
+	<body>
+		
+    <audio id="audio" src="" data-id = ""></audio>
+		
+		<div class="mox">
+			<div class="head"></div>
+			
+			<!--首页-->
+			<div class="page-index">
+				<!--搜索-->
+				<div class="search">
+					<input type="text" placeholder="搜索"/>
+					<div></div>
+				</div>
+				<!--我的收藏、本地存储、我喜欢高-->
+				<div class="sort">
+					<ul>
+						<li class="loc">
+	                    	<div class="mine">本地歌曲</div>
+	                    	<div class="total">
+	                    		<span class="loc-num"></span>
+	                    		<span></span>
+	                    	</div>
+						</li>
+						<li class=" lately">
+	                    	<div class="mine">最近播放</div>
+	                    	<div class="total">
+	                    		<span>599</span>
+	                    		<span></span>
+	                    	</div>
+						</li>
+						<li class="collect">
+	                    	<div class="mine">我的收藏</div>
+	                    	<div class="total">
+	                    		<span>365</span>
+	                    		<span></span>
+	                    	</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--歌词页-->
+			<div class="page-word">
+				<!--歌名-->
+				<div class="title">
+					<span class="back"></span>
+					<div class="tit-name">Let Me Love You</div>
+					<span></span>
+				</div>
+				<!--图片和歌词/歌名-->
+				<div class="song">
+					<p>Justin Bleber</p>
+					<div class="portrait">
+						<img class="auto-img" src="img/pibo.jpeg"/>
+					</div>
+					<div class="short-word">
+						<div class="sw">
+							<p class="con">I use to belive</p>
+							<p>I use to belive</p>
+							<p >I use to belive I use to belive</p>
+							<p>I use to belive</p>
+							<p>I use to belive</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--列表页-->
+			<div class="page-list">
+				<!--sort标题-->
+				<div class="sort-title">
+					<span></span>
+					本地歌曲
+				</div>
+				<!--歌曲列表-->
+				<div class="song-list">
+					<ul>
+						<!--<li class="clearfix">
+							<div class="cir fl">
+								<img src=""/>
+							</div>
+							<div class="gem fl">
+								<span class="ge">天下天下天下</span>
+								<span class="m">张杰 / 张杰 / 张杰</span>
+							</div>
+							<div class="l-time fr">
+								<div class="dt">03:36</div>
+								<div class="line">
+									<span class="line-1"></span>
+									<span class="line-2"></span>
+									<span class="line-1"></span>
+									<span class="line-2"></span>
+								</div>
+							</div>
+							
+						</li>-->
+					</ul>
+				</div>
+			</div>
+			
+			
+			<!--底部按钮-->
+			<div class="song-control">
+				<div class="be clearfix">
+					
+					<div class="s-name">
+						<span></span>
+					</div>
+					<span class="home fl">00:00</span>
+					<span class="end fr">00:00</span>
+				</div>
+				<div class="prog">
+					<div class="prog-act"></div>
+					<div class="mask"></div>
+					<div class="layer"></div>
+				</div>
+				<div class="control-btn clearfix">
+					<div class="suiji" data-val = "1" data-min = "1" data-max = "3"></div>
+					<div class="pre"></div>
+					<div class="pp"></div>
+					<div class="next"></div>
+					<div class="xin"></div>
+				</div>
+			</div>
+			
+		</div>
+		<script src="js/jquery-3.4.1.min.js" ></script>
+		<script src="js/rem.js" ></script>
+		<script src="js/0920music.js"></script>
+	</body>
+</html>
